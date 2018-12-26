@@ -1,0 +1,81 @@
+/* Reset */
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+button
+  margin 0
+  padding 0
+  list-style none
+  border 0
+  outline 0
+
+
+html
+  font-size: 24px /*no*/ // @stylint ignore
+  height 100%
+  width 100%
+  overflow hidden
+
+.scroll_container { touch-action: pan-x; }
+
+body
+  font-family system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif
+  font-weight normal
+  position relative
+  width 100%
+  height 100%
+  overflow hidden
+  text-size-adjust none
+  -webkit-tap-highlight-color transparent
+
+
+a
+  text-decoration none
+
+
+
+/* Tool */
+
+.hide
+  display none
+
+
+.hidden
+  display none !important // @stylint ignore
+
+
+.invisible
+  visibility hidden
+
+
+.rtl
+  direction rtl
+
+
+.clearfix:before,
+.clearfix:after
+  display table
+  content ' '
+
+
+.clearfix:after
+  clear both
+
